@@ -38,9 +38,9 @@
         ?>
       </aside>
 
-      <div class="page-contents">
+      <section class="page-contents">
         <?php include(__DIR__ . '/index.php'); ?>
-      </div>
+      </section>
     </main><!-- /.container -->
 
     <?php include(__DIR__ . '/layout/footer.php'); ?>

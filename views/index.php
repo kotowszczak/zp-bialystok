@@ -1,5 +1,5 @@
-<div class="zp-photo">
-    <div class="zp-tresc">
+<div class="blur">
+    <div class="contents">
         <p>
             <i class="icon">Ikonka Adresu</i>
 

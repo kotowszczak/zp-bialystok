@@ -91,6 +91,7 @@ body {
     position: fixed;
     top: 50%;
     right: 0;
+    z-index: 1050;
 }
 
 .material-icons {
@@ -118,6 +119,10 @@ body {
     font-feature-settings: 'liga';
 }
 
+#main-container {
+    padding: 0;
+}
+
 #main-container aside.left-sidebar {
     width: 20%;
 }
@@ -126,6 +131,7 @@ body.home aside.left-sidebar li.nav-item.home-link {
 }
 aside.left-sidebar ul.nav {
     margin-right: 15px;
+    margin-left: 15px;
 }
 
 aside.left-sidebar li.nav-item {
@@ -148,6 +154,25 @@ aside.left-sidebar a.nav-link:hover {
     text-decoration: none;
 }
 
-#main-container div.page-contents {
+#main-container .page-contents {
     width: 80%;
+}
+
+body.home #main-container .page-contents {
+    background-image: url("../img/zp-bialystok-placowka.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 750px;
+    background-clip: content-box;
+    background-size: cover;
+    color: white;
+}
+
+body.home #main-container .blur {
+    background: rgba(22, 60, 107, 0.4);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    filter: blur(0px);
+    min-height: 750px;
 }
