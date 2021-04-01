@@ -117,3 +117,11 @@ body {
     /* Support for IE. */
     font-feature-settings: 'liga';
   }
+
+  #main-container aside {
+    width: 20%;
+  }
+
+  #main-container div.page-contents {
+    width: 80%;
+  }

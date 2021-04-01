@@ -22,16 +22,20 @@
         href='<?php asset('/css/template.css') ?>' media='all' />
   </head>
 
-  <body>
+  <body class="home">
     <?php include(__DIR__ . '/layout/top-links.php'); ?>
 
     <?php include(__DIR__ . '/layout/header.php'); ?>
 
     <?php include(__DIR__ . '/layout/wcag-controls.php'); ?>
 
-    <main id="main-container" role="main" class="container">
+    <main id="main-container" role="main" class="container-fluid d-flex">
       <aside id="side-menu" class="left-sidebar">
-
+        <?php
+          zp_menu('main', array(
+              'class' => 'flex-column'
+          ));
+        ?>
       </aside>
 
       <div class="page-contents">
