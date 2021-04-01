@@ -198,3 +198,31 @@ body.home #main-container .contents span.material-icons {
 body.home #main-container .contents .fax {
     font-size: 16px;
 }
+
+
+
+/* === Footer === */
+#footer-menu {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    
+    color: #000000;
+    575757
+}
+
+#footer-menu a.nav-link {
+    color: #575757;
+}
+
+#footer-menu a.nav-link:hover {
+    color: #0000FF;
+}
+
+
+.update-date {
+    font-size: 14px;
+    text-align: right;
+    color: #575757;
+    margin-right: 10px;
+}
