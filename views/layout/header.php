@@ -22,17 +22,17 @@
 </header>
 
 <nav id="navbar" class="navbar navbar-expand-md ">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-top" aria-controls="navbar-top" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbar-top">
-        <?php
-            zp_menu('top', array(
-                'class' => 'navbar-nav mr-auto'
-            ));
-        ?>
-      </div>
-    </nav>
+    <div class="collapse navbar-collapse" id="navbar-top">
+    <?php
+        zp_menu('top', array(
+            'class' => 'navbar-nav mr-auto justify-content-end'
+        ));
+    ?>
+    </div>
+</nav>
 
 <!-- /header -->

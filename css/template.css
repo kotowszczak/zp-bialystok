@@ -11,13 +11,49 @@ body {
     background-color: #0751AB;
     color: white;
     height: 180px;
+    display: flex;
+    position:relative;
+    align-items: center!important;
 }
 
 #header .logo {
-
+    width: 20%;
+    height: 180px;
 }
 
 
 #header .title {
+    width: 80%;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
 
+#header .title a {
+    color: white;
+    text-decoration: none;
+}
+
+#header .title a:hover,
+#header .title a:active,
+#header .title a:visited {
+    text-decoration: none;
+}
+
+#header .motto {
+    font-style: italic;
+    font-size: 13px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 280px;
+    text-align: right;
+}
+
+.nav-item.bip .nav-title {
+    display: none;
+}
+
+.nav-item.bip img {
+    height: 20px;
 }

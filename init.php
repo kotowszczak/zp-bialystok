@@ -215,7 +215,7 @@ function zp_menu($menuName, $menuOptions = array())
             $icon = $menuItem['icon'];
 
             echo '<span class="nav-title">' . $menuItem['label'] . '</span>';
-            echo '<img src="'. asset($icon['src'], true) .'" alt="'. h($icon['alt']) .'" class="" />';
+            echo '<img src="'. asset($icon['src'], true) .'" alt="'. h($icon['alt']) .'" class="nav-img" />';
         } else {
             echo $menuItem['label'];
         }
