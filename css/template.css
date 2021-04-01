@@ -83,6 +83,7 @@ body {
 
 #navbar a.nav-link:hover {
     text-decoration: none;
+    color: #0000FF;
 }
 
 #wcag-btns {
@@ -144,6 +145,7 @@ aside.left-sidebar a.nav-link {
     color: #575757;
     font-weight: bold;
     padding: 10px 15px;
+    font-size: 17px;
     -webkit-box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
     -moz-box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
     box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
@@ -161,7 +163,9 @@ aside.left-sidebar a.nav-link:hover {
 body.home #main-container .page-contents {
     background-image: url("../img/zp-bialystok-placowka.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     min-height: 750px;
     background-clip: content-box;
     background-size: cover;
@@ -198,3 +202,51 @@ body.home #main-container .contents span.material-icons {
 body.home #main-container .contents .fax {
     font-size: 16px;
 }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    #main-container aside.left-sidebar {
+        width: 30%;
+    }
+
+    #main-container .page-contents {
+        width: 70%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    #main-container aside.left-sidebar {
+        width: 30%;
+    }
+
+    #main-container .page-contents {
+        width: 70%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    #main-container aside.left-sidebar {
+        display: none;
+    }
+
+    #main-container .page-contents {
+        width: 100%;
+    }
+
+    body.home #main-container .contents {
+        position: static;
+        padding: 20px 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+    body.home #main-container .contents {
+        font-size: 18px;
+    }
+}
+
+
