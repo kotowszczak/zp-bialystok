@@ -10,7 +10,7 @@
         <li class="nav-item">
             <a class="nav-link"
                 title="Link do strony z informacjami na temat ochrony danych osobowych"
-                href="<?php zp_url('/index.php/wstep/ochrona-danych-osobowych'); ?>">
+                href="http://zp.bialystok.pl/index.php/wstep/ochrona-danych-osobowych">
                 Ochrona danych osobowych
             </a>
         </li>
