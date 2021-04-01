@@ -13,7 +13,7 @@
                 href="<?php zp_url('/index.php/wstep/dobre-praktyki'); ?>">Do dyspozycji</a></li>
     </ul>
 
-    <div class="footer-update-date">
-        Data aktualizacji: <span style="font-weight: bold; margin-left: 10px;">28.03.2021</span>
+    <div class="update-date">
+        Data aktualizacji: <span class="date">28.03.2021</span>
     </div>
 </footer>
