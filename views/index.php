@@ -1,5 +1,5 @@
 <div class="zp-photo">
-    <div class="">
+    <div class="zp-tresc">
         <p>
             <i class="icon">Ikonka Adresu</i>
 
@@ -21,7 +21,7 @@
         </p>
 
         <p>
-            <i class="icon">Ikonka znaku pisarskiego małpy</i>
+            <i class="icon">Ikonka małpy</i>
 
             sekretariat@bialystok.zp.gov.pl
         </p>

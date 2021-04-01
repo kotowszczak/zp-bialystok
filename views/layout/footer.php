@@ -1,5 +1,5 @@
-<footer class="footer">
-    <ul class="footer-menu">
+<footer id="footer">
+    <ul id="footer-menu" class="menu">
         <li>
             <a title="Link do strony z informacjami na temat Polityki cookies"
                 href="<?php zp_url('/index.php/wstep/polityki-zakadu/polityka-cookies'); ?>">Polityka cookies</a>

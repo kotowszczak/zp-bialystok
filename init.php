@@ -203,19 +203,19 @@ function zp_menu($menuName, $menuOptions = array())
 
     $menuItems = $zp_menus[$menuName];
 
-    echo '<ul '.(isset($menuOptions['id']) ? 'id="'.$menuOptions['id'].'" ' : '') . 'class="nav">' . "\n";
+    echo '<ul '.(isset($menuOptions['id']) ? 'id="'.$menuOptions['id'].'" ' : '') . 'class="nav'.(isset($menuOptions['class']) ? ' '.$menuOptions['class'] : '').'">' . "\n";
     foreach ($menuItems as $menuItem) {
-        echo '<li class="menu-item' . (! empty($menuItem['class']) ? ' ' . $menuItem['class'] : '' ) . '">' . "\n";
+        echo '<li class="nav-item' . (! empty($menuItem['class']) ? ' ' . $menuItem['class'] : '' ) . '">' . "\n";
         echo '<a
             title="'.( isset($menuItem['title']) ? $menuItem['title'] : $menuItem['label'] ) .
             '" href="'.(isset($menuItem['link']) ? zp_url($menuItem['link'], true) : '#').'"
-            '.( isset($menuItem['icon']) ? ' class=""' : '' ).'>';
+            class="nav-link'.( isset($menuItem['icon']) ? ' with-img' : '' ) . ( isset($menuItem['class']) ? ' ' . $menuItem['class'] : '' ).'">';
 
         if (isset($menuItem['icon'])) {
             $icon = $menuItem['icon'];
 
-            echo '<span class="menu-title">' . $menuItem['label'] . '</span>';
-            echo '<img src="'. asset($icon['src'], true) .'" alt="'. h($icon['alt']) .'" class="">';
+            echo '<span class="nav-title">' . $menuItem['label'] . '</span>';
+            echo '<img src="'. asset($icon['src'], true) .'" alt="'. h($icon['alt']) .'" class="" />';
         } else {
             echo $menuItem['label'];
         }

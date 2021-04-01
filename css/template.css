@@ -1,10 +1,23 @@
 body {
-    padding-top: 5rem;
+    background-color: #F1F1F1;
+    font-family:  Verdana, san-serif;
 }
 
-.starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
+#header-opcje {
+    display: none;
+}
+
+#header {
+    background-color: #0751AB;
+    color: white;
+    height: 180px;
+}
+
+#header .logo {
+
 }
 
 
+#header .title {
+
+}

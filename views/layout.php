@@ -27,6 +27,8 @@
 
     <?php include(__DIR__ . '/layout/header.php'); ?>
 
+    <?php include(__DIR__ . '/layout/wcag-controls.php'); ?>
+
     <main id="main-container" role="main" class="container">
       <aside id="side-menu" class="left-sidebar">
 
@@ -37,7 +39,9 @@
       </div>
     </main><!-- /.container -->
 
-    <!-- Bootstrap core JavaScript -->s
+    <?php include(__DIR__ . '/layout/footer.php'); ?>
+
+    <!-- Bootstrap core JavaScript -->
     <script type='text/javascript' src='<?php asset('/js/jquery-3.3.1.slim.min.js'); ?>'></script>
     <script type='text/javascript' src='<?php asset('/js/bootstrap.min.js'); ?>'></script>
 	  <script type='text/javascript' src='<?php asset('/js/popper.min.js'); ?>'></script>
