@@ -203,6 +203,7 @@ body.home #main-container .contents .fax {
     font-size: 16px;
 }
 
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
     #main-container aside.left-sidebar {
@@ -249,4 +250,29 @@ body.home #main-container .contents .fax {
     }
 }
 
+/* === Footer === */
+#footer-menu {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000000;
+}
+
+#footer-menu a.nav-link {
+    color: #575757;
+}
+
+#footer-menu a.nav-link:hover {
+    color: #0000FF;
+}
+
+#footer .update-date {
+    font-size: 14px;
+    text-align: right;
+    color: #575757;
+    margin-right: 10px;
+    float: left;
+    font-weight: bold;
+    margin-top: -25px;
+}
 
