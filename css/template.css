@@ -57,3 +57,18 @@ body {
 .nav-item.bip img {
     height: 20px;
 }
+
+#navbar a.nav-link {
+    font-size: 17px;
+    color: #575757;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navbar ul.nav{
+    width: 100%;
+}
+
+#navbar a.nav-link:hover {
+    text-decoration: none;
+}
