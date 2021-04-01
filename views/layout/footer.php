@@ -18,7 +18,7 @@
             <a class="nav-link"
                 title="Link do strony z informacjami na temat Aktualizacji"
                 href="http://zp.bialystok.pl/index.php/wstep/dobre-praktyki">
-                Do dyspozycji
+                Dobre praktyki
             </a>
         </li>
     </ul>
