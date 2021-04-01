@@ -116,12 +116,38 @@ body {
 
     /* Support for IE. */
     font-feature-settings: 'liga';
-  }
+}
 
-  #main-container aside {
+#main-container aside.left-sidebar {
     width: 20%;
-  }
+}
+body.home aside.left-sidebar li.nav-item.home-link {
+    display:none;
+}
+aside.left-sidebar ul.nav {
+    margin-right: 15px;
+}
 
-  #main-container div.page-contents {
+aside.left-sidebar li.nav-item {
+    margin-bottom: 15px;
+    font-size: 19px;
+    background-color: #f8f8f8;
+}
+
+aside.left-sidebar a.nav-link {
+    color: #575757;
+    font-weight: bold;
+    padding: 10px 15px;
+    -webkit-box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
+    -moz-box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
+    box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
+}
+
+aside.left-sidebar a.nav-link:hover {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+#main-container div.page-contents {
     width: 80%;
-  }
+}
