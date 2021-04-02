@@ -126,27 +126,27 @@ function zp_menu($menuName, $menuOptions = array())
             ),
 
             array (
-                'link' => '/index.php/dla-rodzicow',
+                'link' => 'http://zp.bialystok.pl/index.php/wstep/dla-rodzicow',
                 'title' => 'Link do informacji dla rodziców',
-                'label' => 'Dla Rodziców',
+                'label' => 'Dla rodziców',
             ),
 
             array (
-                'link' => '/index.php/dla-rodzicow',
+                'link' => 'http://zp.bialystok.pl/index.php/wstep/dla-pracownikow',
                 'title' => 'Link do informacji dla pracowników',
-                'label' => 'Dla Pracowników',
+                'label' => 'Dla pracowników',
             ),
 
             array (
-                'link' => '#',
+                'link' => 'http://zp.bialystok.pl/index.php/kontrola-zarzadcza',
                 'title' => '',
-                'label' => 'Do dyspozycji',
+                'label' => 'Kontrola zarządcza',
             ),
 
             array (
-                'link' => '#',
+                'link' => 'http://zp.bialystok.pl/index.php/zamowienia-publiczne',
                 'title' => '',
-                'label' => 'Do dyspozycji',
+                'label' => 'Zamówienia publiczne',
             ),
 
             array (
@@ -165,19 +165,14 @@ function zp_menu($menuName, $menuOptions = array())
 
         'top' => array(
             array (
-                'link' => '/index.php/organizacja/struktura-organizacyjna',
+                'link' => 'http://zp.bialystok.pl/index.php/organizacja/struktura-organizacyjna',
                 'title' => 'Link do strony z informacjami o placówce',
                 'label' => 'O PLACÓWCE',
             ),
             array (
-                'link' => 'index.php/kontakt',
+                'link' => 'http://zp.bialystok.pl/index.php/kontakt',
                 'title' => 'Link do strony z informacjami kontaktowymi',
                 'label' => 'KONTAKT',
-            ),
-            array (
-                'link' => 'index.php/aktualnosci',
-                'title' => 'Link do strony z aktualnościami zakładu poprawczego w Białymstoku',
-                'label' => 'AKTUALNOŚCI',
             ),
             array (
                 'link' => 'index.php/covid-19',
@@ -185,7 +180,7 @@ function zp_menu($menuName, $menuOptions = array())
                 'label' => 'COVID-19',
             ),
             array (
-                'link' => 'index.php/bip',
+                'link' => 'http://zp.bialystok.pl/index.php/bip',
                 'title' => 'Link do Biuletynu Informacji Publicznej',
                 'label' => 'BIP',
                 'class' => 'bip',
