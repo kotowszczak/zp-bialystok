@@ -1,0 +1,52 @@
+html.high-contrast body {
+    background: black;
+    color: white;
+}
+
+html.high-contrast #header-opcje {
+    display: block;
+    padding: 5px 0;
+}
+
+html.high-contrast #header {
+    background: #333333;
+}
+
+html.high-contrast a,
+html.high-contrast a:visited{
+    color: #ffff14 !important;
+}
+
+html.high-contrast a:hover,
+html.high-contrast a:active,
+html.high-contrast a:focus{
+    outline: 3px solid #236aff;
+    text-decoration: underline !important;
+}
+
+
+html.high-contrast #footer .update-date  {
+    color: white;
+}
+
+
+html.high-contrast #main-container .page-contents,
+html.high-contrast #main-container .blur {
+    background: black !important;
+}
+
+html.high-contrast aside.left-sidebar a.nav-link {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+html.high-contrast aside.left-sidebar,
+html.high-contrast aside.left-sidebar li.nav-item {
+    background: #333333;
+}
+
+
+
+
+
+

@@ -1,14 +1,4 @@
-@font-face {
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
-    src: local('Material Icons'),
-      local('MaterialIcons-Regular'),
-      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
-  }
+
 
 body {
     background-color: #F1F1F1;
@@ -87,12 +77,31 @@ body {
 }
 
 #wcag-btns {
+    padding: 10px 0;
     display: block;
-    width: 25px;
+    width: 45px;
     position: fixed;
-    top: 50%;
+    top: 40%;
     right: 0;
     z-index: 1050;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: right;
+}
+
+#wcag-btns .material-icons {
+    font-size: 32px;
+}
+
+#wcag-btns a {
+    color: #efefef;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#wcag-btns a:hover {
+    color: #0000FF;
 }
 
 .material-icons {
@@ -256,6 +265,7 @@ body.home #main-container .contents .fax {
     font-weight: normal;
     text-decoration: none;
     color: #000000;
+    padding: 5px 0;
 }
 
 #footer-menu a.nav-link {

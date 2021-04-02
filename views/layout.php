@@ -20,14 +20,17 @@
 
     <link rel='stylesheet'
         href='<?php asset('/css/template.css') ?>' media='all' />
+
+    <link rel='stylesheet'
+        href='<?php asset('/css/wcag.css') ?>' media='all' />
   </head>
 
   <body class="home">
     <?php include(__DIR__ . '/layout/top-links.php'); ?>
 
-    <?php include(__DIR__ . '/layout/header.php'); ?>
-
     <?php include(__DIR__ . '/layout/wcag-controls.php'); ?>
+
+    <?php include(__DIR__ . '/layout/header.php'); ?>
 
     <main id="main-container" role="main" class="container-fluid d-flex">
       <aside id="side-menu" class="left-sidebar">
