@@ -24,6 +24,6 @@
     </ul>
 
     <div class="update-date">
-        Data aktualizacji: <span class="date">01.04.2021</span>
+        Data aktualizacji: <span class="date">11.04.2021</span>
     </div>
 </footer>

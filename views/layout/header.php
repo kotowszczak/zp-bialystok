@@ -1,11 +1,10 @@
 <!-- header -->
 <header id="header" class="clear">
     <div class="logo">
-        <a title="Otwórz stronę główną" href="<?php zp_url('/') ?>">
-            <!-- <img src="<?php asset('/img/zp-bialystok-logo.png') ?>"
-                alt="Logo zakładu poprawczego w Białymstoku" class="logo-img">
--->
+<!--        <a title="Otwórz stronę główną" href="<?php zp_url('/') ?>">
+            <img alt="Logo Zakładu Poprawczego w Białymstoku" src="<?php asset('/img/zp-bialystok-logo.png') ?>" alt="Zakład poprawczy w Białymstoku" class="logo-img">
         </a>
+-->
     </div>
 
     <div class="title">
@@ -27,7 +26,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbar-menu">
-    <?php
+        <?php
         zp_menu('top', array(
             'class' => 'navbar-nav justify-content-end'
         ));

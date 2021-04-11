@@ -145,19 +145,19 @@ aside.left-sidebar ul.nav {
 }
 
 aside.left-sidebar li.nav-item {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     font-size: 19px;
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
 }
 
 aside.left-sidebar a.nav-link {
     color: #575757;
     font-weight: bold;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
     font-size: 17px;
-    -webkit-box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
+    /*-webkit-box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
     -moz-box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
-    box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5);
+    box-shadow: 13px 13px 35px 0px rgba(214, 214, 214, 0.5); */
 }
 
 aside.left-sidebar a.nav-link:hover {
