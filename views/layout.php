@@ -42,7 +42,16 @@
       </aside>
 
       <section class="page-contents">
-        <?php include(__DIR__ . '/index.php'); ?>
+        <?php
+        if (isset($mainContents)) {
+          echo $mainContents;
+        } else if (isset($mainView) && is_file(__DIR__ . '/' . $mainView)) {
+          include(__DIR__ . '/' . $mainView);
+        } else {
+          include(__DIR__ . '/index.php');
+        }
+
+        ?>
       </section>
     </main><!-- /.container -->
 
