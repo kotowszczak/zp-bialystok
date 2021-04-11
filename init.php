@@ -132,7 +132,7 @@ function zp_menu($menuName, $menuOptions = array())
             ),
 
             array (
-                'link' => 'http://zp.bialystok.pl/index.php/wstep/dla-pracownikow',
+                'link' => 'uc.php',
                 'title' => 'Link do informacji dla pracowników',
                 'label' => 'Dla pracowników',
             ),
@@ -144,20 +144,20 @@ function zp_menu($menuName, $menuOptions = array())
 //            ),
 
             array (
-                'link' => '/',
+                'link' => 'uc.php',
                 'title' => '',
                 'label' => 'Hostel',
             ),
 
             array (
-                'link' => '/',
+                'link' => 'uc.php',
                 'title' => 'Link do Mapy serwisu',
                 'label' => 'Mapa serwisu',
             ),
 
 
             array (
-                'link' => '/',
+                'link' => 'uc.php',
                 'title' => 'Link do deklaracji dostępności',
                 'label' => 'Deklaracja dostępności',
             ),
@@ -165,22 +165,22 @@ function zp_menu($menuName, $menuOptions = array())
 
         'top' => array(
             array (
-                'link' => '/',
+                'link' => 'uc.php',
                 'title' => 'Link do strony z informacjami o placówce',
                 'label' => 'O PLACÓWCE',
             ),
             array (
-                'link' => '/',
+                'link' => 'uc.php',
                 'title' => 'Link do strony z informacjami kontaktowymi',
                 'label' => 'KONTAKT',
             ),
             array (
-                'link' => '/',
+                'link' => 'uc.php',
                 'title' => 'Link do strony z informacjami na temat COVID-19',
                 'label' => 'COVID-19',
             ),
             array (
-                'link' => '/',
+                'link' => 'uc.php',
                 'title' => 'Link do Biuletynu Informacji Publicznej',
                 'label' => 'BIP',
                 'class' => 'bip',

@@ -1,4 +1,4 @@
-<div>
-<h4>Stona w budowie !</h4>
+<div class='uc'>
+Stona w budowie !
 </div>
 

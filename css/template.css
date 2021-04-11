@@ -5,6 +5,12 @@ body {
     font-family:  Verdana, san-serif;
 }
 
+.uc {
+    color: #575757;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 #header-opcje {
     display: none;
 }
